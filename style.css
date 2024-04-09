@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman';
+    text-align: center;
+    background: repeating-linear-gradient(blue,darkblue);
+}
+
+.stopwatch {
+    width: 500px;
+    height: 570px;
+    margin: 0px 350px auto;
+    background: repeating-linear-gradient(white,darkblue);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+}
+
+.time {
+    font-size: 50px;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(blue,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.controls button {
+    background-color: forestgreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 20px;
+    font-family:'Times New Roman';
+}
+
+.controls button:hover {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
